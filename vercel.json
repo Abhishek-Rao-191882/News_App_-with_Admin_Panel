@@ -3,12 +3,9 @@
   "builds": [
     {
       "src": "server/server.js",
-      "use": "@now/node"
+      "use": "@12.x/node"
     }
   ],
-  "engines": {
-    "node": "18.x"
-  },
   "routes": [
     {
       "src": "/(.*)",
